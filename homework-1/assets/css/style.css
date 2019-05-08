@@ -6,7 +6,7 @@ body {
 .c-header {
     display: flex;
     justify-content: space-between;
-    background-color: #bba177;
+    background-color: #e0dacf;
     height: 55px;
 }
 
@@ -116,4 +116,13 @@ body {
 
 .box__text {
     padding: 10px 0 10px 0;
+}
+
+.c-footer { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e0dacf;
+    height: 55px;
+    margin-top: 40px;
 }
