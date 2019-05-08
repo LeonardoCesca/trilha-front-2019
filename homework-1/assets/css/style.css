@@ -1,0 +1,108 @@
+body {
+    background-color: #edeae2;
+    font-family: "Montserrat", sans-serif;
+}
+
+.c-header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #bba177;
+    height: 55px;
+}
+
+.c-header__title {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding-left: 90px;
+}
+
+.c-nav {
+    display: flex;
+}
+
+.c-nav__list {
+    display: flex;
+    justify-content: space-between;
+    width: 140px;
+    padding-right: 90px;
+    align-items: center;
+}
+
+.c-nav__item {
+    font-weight: 700;
+}
+
+.c-nav__link {
+    text-decoration: none;
+    color: #000;
+}
+
+.c-nav__link:hover {
+    text-decoration: underline;
+    color: #551a8b;
+}
+
+.c-about {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.c-about__img {
+    width: 405px;
+    height: 270px;
+}
+
+.c-about__container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 15px;
+    background-color: #fff;
+}
+
+.c-about__title {
+    text-align: center;
+    margin: 15px 0 15px 0;
+}
+
+.c-about__text {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.c-accordion {
+    background-color: #edeae2;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.c-accordion__content {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.c-accordion__btn {
+    background-color: #edeae2;
+    color: #0066a1;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.box {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
