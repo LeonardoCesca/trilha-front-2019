@@ -57,6 +57,7 @@ body {
 .c-about__container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     width: 50%;
     margin-left: 15px;
     background-color: #fff;
@@ -64,7 +65,7 @@ body {
 
 .c-about__title {
     text-align: center;
-    margin: 15px 0 15px 0;
+    margin: 0 0 15px 0;
 }
 
 .c-about__text {
@@ -76,6 +77,11 @@ body {
     background-color: #edeae2;
     max-width: 50%;
     margin: 0 auto;
+}
+
+.c-accordion__title {
+    margin: 40px 0 40px 0;
+    font-size: 25px;
 }
 
 .c-accordion__content {
@@ -94,6 +100,7 @@ body {
     border: none;
     outline: none;
     transition: 0.4s;
+    border-bottom: 1px solid;
 }
 
 .active, .accordion:hover {
@@ -105,4 +112,8 @@ body {
     background-color: white;
     display: none;
     overflow: hidden;
+}
+
+.box__text {
+    padding: 10px 0 10px 0;
 }
