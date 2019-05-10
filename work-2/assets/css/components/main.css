@@ -1,0 +1,6 @@
+.c-main {
+    display: flex;
+    margin-top: 20px;
+    width: var(--default-width);
+    height: 76.3%;
+}

@@ -1,0 +1,13 @@
+.c-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-nav__list {
+    display: flex;
+    justify-content: space-between;
+    width: 230px;
+    padding-right: 85px;
+    list-style: none;
+}
