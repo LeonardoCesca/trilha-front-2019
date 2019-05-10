@@ -1,0 +1,5 @@
+.c-ads {
+    background-color: var(--default-color);
+    margin-left: 20px;
+    width: var(--default-width);
+}
