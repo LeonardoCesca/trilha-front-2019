@@ -1,6 +1,7 @@
 .c-main {
     display: flex;
     margin-top: 20px;
+    margin-bottom: 20px;
     width: var(--default-width);
-    height: 76.3%;
+    height: calc(100vh - 180px);
 }

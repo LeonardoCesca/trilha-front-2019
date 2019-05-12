@@ -1,6 +1,5 @@
 .c-footer {
     background-color: var(--default-color);
-    width: var(--default-width);
-    height: 10%;
-    margin-top: 20px;
+    height: var(--fix-height-40);
+    padding: var(--default-pdd);
 }

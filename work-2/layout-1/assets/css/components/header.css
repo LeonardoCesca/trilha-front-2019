@@ -1,7 +1,7 @@
 .c-header {
     display: flex;
     align-content: center;
-    height: 10%;
-    padding-left: var(--default-color);
+    height: var(--fix-height-40);
+    padding: var(--default-pdd);
     background-color: var(--default-color);
 }

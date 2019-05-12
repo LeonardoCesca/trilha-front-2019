@@ -1,5 +1,6 @@
 :root {
     --default-color: #fbd904;
     --default-width: 100%;
-    --default-pdd-left: 30px;
+    --default-pdd: 30px 0 0 30px;
+    --fix-height-40: 40px;
 }
