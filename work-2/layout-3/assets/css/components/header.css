@@ -1,0 +1,6 @@
+.c-header__title {
+    background-color: var(--default-bg-color-hea);
+    font-size: 50px;
+    padding: 30px;
+    color: var(--white);
+}

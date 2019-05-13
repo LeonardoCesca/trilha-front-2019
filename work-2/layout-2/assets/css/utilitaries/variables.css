@@ -1,0 +1,8 @@
+:root {
+    --default-color: #9bce0d;
+    --default-height: 80px;
+    --default-mg-20: 20px;
+    --default-pdd-top: 20px;
+    --default-pdd-left: 20px;
+    --default-width-container: calc(100vw - 300px);
+}

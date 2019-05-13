@@ -1,0 +1,8 @@
+.c-header {
+    width: var(--default-width-container);
+    height: var(--default-height);
+    background-color: var(--default-color);
+    margin-bottom: var(--default-mg-20);
+    padding-top: var(--default-pdd-top);
+    padding-left: var(--default-pdd-left);
+}

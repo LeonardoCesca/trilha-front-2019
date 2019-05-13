@@ -1,0 +1,6 @@
+.c-footer {
+    height: var(--default-height);
+    background-color: var(--default-color);
+    padding-top: var(--default-pdd-top);
+    padding-left: var(--default-pdd-left);
+}

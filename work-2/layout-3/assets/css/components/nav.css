@@ -1,0 +1,15 @@
+.c-nav {
+    display: flex;
+    background-color: #1805cc;
+    height: 40px;
+}
+
+.c-nav__list {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+    width: 350px;
+    color: var(--white);
+    font-weight: bold;
+}

@@ -1,0 +1,14 @@
+.c-aside {
+    border: 1px solid #000;
+    width: 300px;
+    height: 290px;
+}
+
+.c-aside__title {
+    padding: 10px 40px 10px 15px;
+    font-size: 18px;
+}
+
+.c-aside__item {
+    padding: 3px 40px 0 45px;
+}

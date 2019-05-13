@@ -1,0 +1,7 @@
+.c-nav {
+    background-color: var(--default-color);
+    width: calc(100% - 500px);
+    margin-right: 20px;
+    padding-top: var(--default-pdd-top);
+    padding-left: var(--default-pdd-left);
+}

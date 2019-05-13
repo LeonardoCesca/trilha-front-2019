@@ -1,0 +1,7 @@
+.c-main {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    padding: 30px 40px 0 3px;
+    min-height: 100%;
+}

@@ -1,0 +1,14 @@
+.c-article {
+    font-size: 20px;
+    padding-left: 20px;
+    width: 80%;
+}
+
+.c-article__title {
+    margin-bottom: 20px;
+}
+
+.c-article__text {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
