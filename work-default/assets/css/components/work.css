@@ -1,0 +1,15 @@
+.c-work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.c-work__title {
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.c-work__showcase {
+    display: flex;
+    justify-content: center;
+}
