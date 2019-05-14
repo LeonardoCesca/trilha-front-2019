@@ -1,8 +1,14 @@
 .c-footer {
+    display: flex;
+    align-items: center;
     height: 60px;
     background-color: #a9a9a9;
     bottom: 0;
     width: 100%;
-    margin-top: 10px;
+    margin-top: 12px;
     clear: both; 
+}
+
+.c-footer__text {
+    padding: 0 40px 0 20px;
 }

@@ -9,6 +9,10 @@
     font-size: 18px;
 }
 
+.c-aside__list {
+    padding-left: 60px;
+}
+
 .c-aside__item {
-    padding: 3px 40px 0 45px;
+    padding: 3px 40px 0 0px;
 }
