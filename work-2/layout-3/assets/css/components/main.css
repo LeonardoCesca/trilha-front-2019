@@ -1,7 +1,18 @@
 .c-main {
     display: flex;
     justify-content: space-between;
-    height: 100%;
     padding: 30px 40px 0 3px;
-    min-height: 100%;
 }
+
+@media (min-height: 950px) {
+    .c-main{
+        min-height: 100%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .c-main{
+        height: 72.5%;
+    }
+}
+
