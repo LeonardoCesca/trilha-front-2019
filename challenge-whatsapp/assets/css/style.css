@@ -9,13 +9,12 @@ body {
     border: 0;
     margin: 0;
     background-color: #e0d9d3;
-    height: 100%;
+    height: 100vh;
     font-family: "Roboto", Arial, sans-serif;
 }
 
 .c-content {
     width: 100%;
-    height: 100%;
 }
 
 .c-menu {
@@ -46,6 +45,10 @@ body {
 
 .c-header__icons {
     display: flex;
+}
+
+.c-icon__more {
+    cursor: pointer;
 }
 
 .c-header__icons svg {
@@ -115,7 +118,7 @@ body {
 .c-peoples {
     display: flex;
     flex-direction: column;
-    height: 82.5vh;
+    height: 87.8vh;
     background-color: #f2f2f2;
 }
 
@@ -190,4 +193,11 @@ body {
     font-family: "Roboto", Arial, sans-serif;
     font-size: 15px;
     color: #000;
+}
+
+#vaiabrir {
+    height: 100px;
+    background-color: #000;
+    width: 100px;
+    display: none;
 }
