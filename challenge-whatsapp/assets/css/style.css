@@ -232,6 +232,7 @@ body {
     width: 67.8vw;
     padding-left: 16px;
     padding-right: 16px;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
 
 }
 
