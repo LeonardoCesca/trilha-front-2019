@@ -19,21 +19,21 @@ body {
 
 @media (min-width: 1349px) {
     .c-content {
-       /* overflow: hidden; */
+        /* overflow: hidden; */
     }
 }
 
-.c-menu {
+.c-menu-left {
     float: left;
     width: 30%;
 }
 
-.c-menu-2 {
+.c-menu-right {
     float: right;
     width: 70%;
 }
 
-.c-header {
+.c-header-left {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -45,12 +45,18 @@ body {
 }
 
 @media (min-width: 1349px) {
-    .c-header {
+    .c-header-left {
         width: 92.1%;
     }
 }
 
-.c-header-2 {
+@media (min-width: 1600px) {
+    .c-header-left {
+        width: 94.7%;
+    }
+}
+
+.c-header-right {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -63,17 +69,23 @@ body {
 }
 
 @media (min-width: 1024px) {
-    .c-header-2 {
+    .c-header-right {
         width: 96.5%;
     }
 }
 
-.c-header__img {
+@media (min-width: 1600px) {
+    .c-header-right {
+        width: 97.7%;
+    }
+}
+
+.c-header-left__img {
     border-radius: 50%;
     width: 40px;
 }
 
-.c-header__icons {
+.c-header-left__icons {
     display: flex;
 }
 
@@ -81,7 +93,7 @@ body {
     cursor: pointer;
 }
 
-.c-header__icons svg {
+.c-header-left__icons svg {
     padding: 8px;
 }
 
@@ -89,6 +101,12 @@ body {
     display: flex;
     flex-direction: column;
     width: 81%;
+}
+
+@media (min-width: 1600px) {
+    .c-info-user {
+        width: 97.7%;
+    }
 }
 
 .c-info-user__name {
@@ -158,6 +176,12 @@ body {
     }
 }
 
+@media (min-width: 1600px) {
+    .c-peoples {
+        height: 981px;
+    }
+}
+
 .c-peoples__img {
     padding: 0 15px 0 15px;
     border-radius: 50%;
@@ -172,13 +196,13 @@ body {
     padding-right: 12px;
 }
 
-.c-peoples__talk::after {
+/* .c-peoples__talk::after {
     content: '';
     height: 69px;
     width: 100%;
     float: right;
     border-bottom: 2px solid #f2f2f2;
-}
+} */
 
 .c-div-img {
     padding-right: 16px;
@@ -217,12 +241,24 @@ body {
     }
 }
 
+@media (min-width: 1600px) {
+    .c-footer-container {
+        width: 68.4vw;
+    }
+}
+
 .c-footer__label {
     width: 88%;
     font-size: 15px;
     color: #000;
     padding-left: 30px;
     padding-right: 37px;
+}
+
+@media (min-width: 1600px) {
+    .c-footer__label {
+        width: 91%;
+    }
 }
 
 .c-footer__input {
@@ -237,20 +273,26 @@ body {
     color: #000;
 }
 
-#vaiabrir {
-    height: 100px;
-    background-color: #000;
-    width: 100px;
-    display: none;
-}
-
-.c-fudeu {
+.c-footer-content {
     display: flex;
     height: 552px;
 }
 
 @media (min-width: 1349px) {
-    .c-fudeu {
+    .c-footer-content {
         height: 624px;
     }
+}
+
+@media (min-width: 1600px) {
+    .c-footer-content {
+        height: 1090px;
+    }
+}
+
+.c-line {
+    height: 69px;
+    width: 100%;
+    float: right;
+    border-bottom: 2px solid #f2f2f2;
 }
