@@ -9,7 +9,7 @@ body {
     border: 0;
     margin: 0;
     background-color: #e0d9d3;
-    height: 100vh;
+    height: 100%;
     font-family: "Roboto", Arial, sans-serif;
 }
 
@@ -182,6 +182,15 @@ body {
     }
 }
 
+.c-talk__subtitle {
+    color: #909090;
+    word-break: break-all;
+}
+
+.c-talk-content {
+    width: calc(100vw - 2px);
+}
+
 .c-peoples__img {
     padding: 0 15px 0 15px;
     border-radius: 50%;
@@ -195,14 +204,6 @@ body {
     background-color: #fff;
     padding-right: 12px;
 }
-
-/* .c-peoples__talk::after {
-    content: '';
-    height: 69px;
-    width: 100%;
-    float: right;
-    border-bottom: 2px solid #f2f2f2;
-} */
 
 .c-div-img {
     padding-right: 16px;
@@ -273,26 +274,19 @@ body {
     color: #000;
 }
 
-.c-footer-content {
+.c-menu-content {
     display: flex;
     height: 552px;
 }
 
 @media (min-width: 1349px) {
-    .c-footer-content {
+    .c-menu-content {
         height: 624px;
     }
 }
 
 @media (min-width: 1600px) {
-    .c-footer-content {
-        height: 1090px;
+    .c-menu-content {
+        height: 966px;
     }
-}
-
-.c-line {
-    height: 69px;
-    width: 100%;
-    float: right;
-    border-bottom: 2px solid #f2f2f2;
 }
