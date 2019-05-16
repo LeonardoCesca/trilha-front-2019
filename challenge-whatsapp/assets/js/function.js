@@ -1,16 +1,16 @@
 const users = [{
         nome: 'Leonardo',
-        foto: 'assets/img/perfil.jpg',
+        foto: 'assets/img/users/leonardo.jpg',
         ultimaMensagem: 'oi!'
     },
     {
         nome: 'Thiago',
-        foto: 'assets/img/perfil.jpg',
+        foto: 'assets/img/users/thiago.jpeg',
         ultimaMensagem: 'oi tbm!'
     },
     {
         nome: 'Vic',
-        foto: 'assets/img/perfil.jpg',
+        foto: 'assets/img/users/vic.jpeg',
         ultimaMensagem: 'oie!'
     }
 ]
