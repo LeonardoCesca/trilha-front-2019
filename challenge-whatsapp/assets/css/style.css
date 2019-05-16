@@ -3,24 +3,19 @@
     src: url("../fonts/Roboto-Regular.ttf");
 }
 
-html,
-body {
+html, body {
     padding: 0;
     border: 0;
     margin: 0;
-    background-color: #e0d9d3;
     height: 100%;
     font-family: "Roboto", Arial, sans-serif;
 }
 
 .c-content {
     width: 100%;
-}
+    height: 100%;
+    background-color: #e0d9d3;
 
-@media (min-width: 1349px) {
-    .c-content {
-        /* overflow: hidden; */
-    }
 }
 
 .c-menu-left {
@@ -77,6 +72,12 @@ body {
 @media (min-width: 1600px) {
     .c-header-right {
         width: 97.7%;
+    }
+}
+
+@media (min-width: 1920px) {
+    .c-header-right {
+        width: 97.55%;
     }
 }
 
@@ -172,7 +173,7 @@ body {
 
 @media (min-width: 1349px) {
     .c-peoples {
-        height: 82.6vh;
+        height: 516px;
     }
 }
 
@@ -181,6 +182,13 @@ body {
         height: 981px;
     }
 }
+
+@media (min-width: 1920px) {
+    .c-peoples {
+        height: 828px;
+    }
+}
+
 
 .c-talk__subtitle {
     color: #909090;
@@ -233,7 +241,6 @@ body {
     padding-left: 16px;
     padding-right: 16px;
     border-left: 1px solid rgba(0, 0, 0, 0.08);
-
 }
 
 @media (min-width: 1349px) {
@@ -245,6 +252,12 @@ body {
 @media (min-width: 1600px) {
     .c-footer-container {
         width: 68.4vw;
+    }
+}
+
+@media (min-width: 1920px) {
+    .c-footer-container {
+        width: 68.2vw;
     }
 }
 
@@ -281,12 +294,18 @@ body {
 
 @media (min-width: 1349px) {
     .c-menu-content {
-        height: 624px;
+        height: 501px;
     }
 }
 
 @media (min-width: 1600px) {
     .c-menu-content {
         height: 966px;
+    }
+}
+
+@media (min-width: 1920px) {
+    .c-menu-content {
+        height: 813px;
     }
 }
