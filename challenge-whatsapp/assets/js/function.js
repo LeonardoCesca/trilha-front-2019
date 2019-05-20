@@ -1,24 +1,28 @@
 const users = [{
         nome: 'Leonardo',
         foto: 'assets/img/users/leonardo.jpg',
-        ultimaMensagem: 'oi!'
+        ultimaMensagem: 'oi!',
+        horario: '12:10'
     },
     {
         nome: 'Thiago',
         foto: 'assets/img/users/thiago.jpeg',
-        ultimaMensagem: 'oi tbm!'
+        ultimaMensagem: 'oi tbm!',
+        horario: '13:00'
     },
     {
         nome: 'Vic',
         foto: 'assets/img/users/vic.jpeg',
-        ultimaMensagem: 'oie!'
+        ultimaMensagem: 'oie!',
+        horario: '14:00'
     }
 ]
 
 let html = ''
 
-users.forEach(function (user) {
-    html += `
+function listNames() {
+    users.forEach(function (user) {
+        html += `
         <div class="c-peoples__talk">
         <div class="c-i">
         <img src="${user.foto}" alt="" class="c-peoples__img">
@@ -27,21 +31,25 @@ users.forEach(function (user) {
         <div class="c-talk">${user.nome}</div>
         <span class="c-talk__subtitle">${user.ultimaMensagem}</span>
         </div>
+        <span class="c-talk__hour">${user.horario}</span>
         </div>    
+        <span class="c-talk__detail"></span>
         `
-})
+    })
 
-document.getElementById('users-list').innerHTML = html
+    document.getElementById('users-list').innerHTML = html
 
-document.getElementById("users-list").innerHTML;
+    document.getElementById("users-list").innerHTML;
+}
 
-document.getElementById("c-search-label").addEventListener("keyup", function (event) {
-    const value = event.target.value;
-    const aa = (users.filter(user => user.nome.toLowerCase().includes(value)));
-    let html2 = '';
+function searchNames() {
+    document.getElementById("c-search-label").addEventListener("keyup", function (event) {
+        const value = event.target.value;
+        const aa = (users.filter(user => user.nome.toLowerCase().includes(value)));
+        let html2 = '';
 
-    aa.forEach(function (user) {
-        html2 += `
+        aa.forEach(function (user) {
+            html2 += `
             <div class="c-peoples__talk">
             <div class="c-i">
             <img src="${user.foto}" alt="" class="c-peoples__img">
@@ -50,10 +58,16 @@ document.getElementById("c-search-label").addEventListener("keyup", function (ev
             <div class="c-talk">${user.nome}</div>
             <span class="c-talk__subtitle">${user.ultimaMensagem}</span>
             </div>
+            <span class="c-talk__hour">${user.horario}</span>
             </div>    
+            <span class="c-talk__detail"></span>
             `
-    })
+        })
 
-    document.getElementById('users-list').innerHTML = html2;
+        document.getElementById('users-list').innerHTML = html2;
 
-});
+    });
+}
+
+listNames();
+searchNames();
