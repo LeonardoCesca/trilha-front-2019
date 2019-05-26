@@ -202,7 +202,8 @@
 .hangout-footer {
     display: flex;
     width: 256px;
-
+    position: absolute;
+    bottom: 0;
 }
 
 .hangout-list-options {

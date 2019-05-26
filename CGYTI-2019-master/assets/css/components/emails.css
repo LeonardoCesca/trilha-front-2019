@@ -6,6 +6,7 @@
 .emails {
     background-color: #fff;
     overflow-y: scroll;
+    flex: 1;
 }
 
 .email-list {
