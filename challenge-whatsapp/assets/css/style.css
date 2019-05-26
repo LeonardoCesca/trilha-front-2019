@@ -3,7 +3,8 @@
     src: url("../fonts/Roboto-Regular.ttf");
 }
 
-html, body {
+html,
+body {
     padding: 0;
     border: 0;
     margin: 0;
@@ -197,6 +198,17 @@ html, body {
 
 .c-talk-content {
     width: calc(100vw - 2px);
+}
+
+.c-talk__hour {
+    margin-bottom: 30px;
+    font-size: 12px;
+    color: #909090;
+}
+
+.c-talk__detail {
+    border-bottom: 1px solid #eeeeee;
+    width: 475px;
 }
 
 .c-peoples__img {
