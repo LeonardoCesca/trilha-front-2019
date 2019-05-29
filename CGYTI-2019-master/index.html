@@ -79,7 +79,7 @@
         <nav class="menu-navigation">
           <ul class="nav-list">
             <li class="nav-item">
-              <a href="#">
+              <a href="#" id="received-emails">
                 <img src="assets/images/icons/inboxblack.png" title="Inbox" alt="Inbox">
                 <span class="nav-text">Caixa de entrada</span>
               </a>
@@ -97,7 +97,7 @@
               </a>
             </li>
             <li class="nav-item">
-              <a href="#">
+              <a href="#" id="sent-emails">
                 <img src="assets/images/icons/send_black_20dp.png" title="Send" alt="Send">
                 <span class="nav-text">Enviados</span>
               </a>
@@ -138,17 +138,16 @@
         <div class="icon-inbox-left">
           <ul class="icon-inbox-list">
             <li class="icon-inbox-item">
-              <img class="hover-square" src="assets/images/icons/check_box_outline_blank_black_20dp.png"
+              <img class="hover-square" id="square" src="assets/images/icons/check_box_outline_blank_black_20dp.png"
                 title="Check box" alt="check-box" />
               <img class="hover-square" src="assets/images/icons/arrow_drop_down_black_20dp.png" title="Arrow drop down"
                 alt="arrow-drop-down" />
             </li>
             <li class="icon-inbox-item">
-              <img class="hover-circle" src="assets/images/icons/refresh_black_20dp.png" title="Refresh"
-                alt="refresh" />
+              <img class="hover-circle" id="refresh" src="assets/images/icons/refresh_black_20dp.png" title="Refresh" alt="refresh" />
             </li>
             <li class="icon-inbox-item">
-              <img class="hover-circle" src="assets/images/icons/more-icon.png" title="Options" alt="options" />
+              <img class="hover-circle" id="options" src="assets/images/icons/more-icon.png" title="Options" alt="options" />
             </li>
           </ul>
         </div>
@@ -159,19 +158,16 @@
           <img src="assets/images/icons/settings_black_20dp.png" title="Settings" alt="Settings" class="inbox-img" />
         </div>
       </header>
-
       <nav class="nav-inbox">
         <ul class="nav-inbox-list">
           <li class="nav-inbox-item">
             <img class="images-style" src="assets/images/icons/inboxblack.png" title="Principal" alt="Principal" />
             Principal
           </li>
-
           <li class="nav-inbox-item">
             <img class="images-style" src="assets/images/icons/people_black_20dp.png" title="Social" alt="Social" />
             Social
           </li>
-
           <li class="nav-inbox-item">
             <img class="images-style" src="assets/images/icons/local_offer_black_20dp.png" title="Promotion"
               alt="Promotion" /> Promoções
@@ -243,7 +239,7 @@
 
   <section class="new-message invisible">
     <header class="new-message-header">
-      <p>New message</p>
+      <p>Nova mensagem</p>
       <ul class="new-message-header-icons ">
         <li class="new-message-minimize header-sprites"></li>
         <li class="new-message-maximize header-sprites"></li>
@@ -257,9 +253,8 @@
     </form>
     <footer class="new-message-footer">
       <div class="send-buttons">
-        <button class="send-button">
-          Send
-        </button>
+        <input type="submit" value="Enviar" class="send-button">
+        </input>
         <button class="send-options-button">
           <img src="assets/images/icons/arrow_drop_down_black_20dp.png" alt="">
         </button>
@@ -296,9 +291,17 @@
       </div>
     </footer>
   </section>
-
+  <section class="minimize-new-message invisible">
+    <p>Nova mensagem</p>
+    <ul class="minimize-new-message-icons-list">
+      <li class="minimize-icon"></li>
+      <li class="full-size-icon"></li>
+      <li class="close-icon"></li>
+    </ul>
+  </section>
   <section class="talk-hangout invisible" id="talk-hangout">
     <header class="new-message-header-hangout">
+      <span class="talk-hangout-detail"></span>
       <p class="talk-hangout-name"></p>
       <ul class="new-message-header-icons">
         <li class="new-message-minimize header-sprites"></li>
@@ -328,6 +331,11 @@
         <span class="icon-picture"></span>
       </footer>
     </main>
+  </section>
+
+  <section class="more-nav-table invisible">
+    <span>Marcar todas como lidas</span>
+    <span>Selecione as mensagens para ver mais ações</span>
   </section>
 
   <script src="assets/js/script.js"></script>
