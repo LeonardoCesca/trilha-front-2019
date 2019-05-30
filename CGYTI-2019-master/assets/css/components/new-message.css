@@ -89,7 +89,7 @@
     border: none;
     border-bottom: 1px solid rgba(232, 236, 241, 0.8);
     width: 550px;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 .email-body{
@@ -99,13 +99,15 @@
     width: 550px;
     height: 100%; 
     margin-top: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .new-message-footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 12px 16px;;
+    margin: 12px 16px;
 }
 
 .send-buttons{
@@ -114,7 +116,7 @@
     justify-content: space-between;
 }
 
-.send-buttons button{
+.send-buttons input, .send-buttons button{
     background-color: #1a73e8;
     border: none;
     outline: none;
