@@ -22,8 +22,7 @@ function abc() {
     clearTimeout(time);
   }
   document.getElementById("display").innerHTML = concaty + caracter;
-  console.log(caracter);
-  time = setTimeout(function () {
+  time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
@@ -49,8 +48,7 @@ function def() {
     clearTimeout(time);
   }
   document.getElementById("display").innerHTML = concaty + caracter;
-  console.log(caracter);
-  time = setTimeout(function () {
+  time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
@@ -76,8 +74,7 @@ function ghi() {
     clearTimeout(time);
   }
   document.getElementById("display").innerHTML = concaty + caracter;
-  console.log(caracter);
-  time = setTimeout(function () {
+  time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
@@ -103,8 +100,7 @@ function jkl() {
     clearTimeout(time);
   }
   document.getElementById("display").innerHTML = concaty + caracter;
-  console.log(caracter);
-  time = setTimeout(function () {
+  time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
@@ -130,8 +126,7 @@ function mno() {
     clearTimeout(time);
   }
   document.getElementById("display").innerHTML = concaty + caracter;
-  console.log(caracter);
-  time = setTimeout(function () {
+  time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
@@ -160,8 +155,7 @@ function pqrs() {
     clearTimeout(time);
   }
   document.getElementById("display").innerHTML = concaty + caracter;
-  console.log(caracter);
-  time = setTimeout(function () {
+  time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
@@ -187,8 +181,7 @@ function tuv() {
     clearTimeout(time);
   }
   document.getElementById("display").innerHTML = concaty + caracter;
-  console.log(caracter);
-  time = setTimeout(function () {
+  time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
@@ -217,9 +210,15 @@ function wxyz() {
     clearTimeout(time);
   }
   document.getElementById("display").innerHTML = concaty + caracter;
-  console.log(caracter);
-  time = setTimeout(function () {
+  time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
+}
+
+function space() {
+  time = setTimeout(function() {
+    concaty = concaty.concat(" ");
+    count = 0;
+  }, 500);
 }
