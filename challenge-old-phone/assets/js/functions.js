@@ -1,10 +1,10 @@
-var count = 0;
-var concaty = "";
-var caracter, time;
+let count = 0;
+let concaty = "";
+let caracter, time;
 
 function abc() {
-  var input_value = document.getElementById("data2").value;
-  var i = input_value.split(" ");
+  let input_value = document.getElementById("data2").value;
+  let i = input_value.split(" ");
   count++;
 
   if (count === 1) {
@@ -23,15 +23,15 @@ function abc() {
   }
   document.getElementById("display").innerHTML = concaty + caracter;
   console.log(caracter);
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
 }
 
 function def() {
-  var input_value = document.getElementById("data3").value;
-  var i = input_value.split(" ");
+  let input_value = document.getElementById("data3").value;
+  let i = input_value.split(" ");
   count++;
 
   if (count === 1) {
@@ -50,15 +50,15 @@ function def() {
   }
   document.getElementById("display").innerHTML = concaty + caracter;
   console.log(caracter);
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
 }
 
 function ghi() {
-  var input_value = document.getElementById("data4").value;
-  var i = input_value.split(" ");
+  let input_value = document.getElementById("data4").value;
+  let i = input_value.split(" ");
   count++;
 
   if (count === 1) {
@@ -77,15 +77,15 @@ function ghi() {
   }
   document.getElementById("display").innerHTML = concaty + caracter;
   console.log(caracter);
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
 }
 
 function jkl() {
-  var input_value = document.getElementById("data5").value;
-  var i = input_value.split(" ");
+  let input_value = document.getElementById("data5").value;
+  let i = input_value.split(" ");
   count++;
 
   if (count === 1) {
@@ -104,15 +104,15 @@ function jkl() {
   }
   document.getElementById("display").innerHTML = concaty + caracter;
   console.log(caracter);
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
 }
 
 function mno() {
-  var input_value = document.getElementById("data6").value;
-  var i = input_value.split(" ");
+  let input_value = document.getElementById("data6").value;
+  let i = input_value.split(" ");
   count++;
 
   if (count === 1) {
@@ -131,15 +131,15 @@ function mno() {
   }
   document.getElementById("display").innerHTML = concaty + caracter;
   console.log(caracter);
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
 }
 
 function pqrs() {
-  var input_value = document.getElementById("data7").value;
-  var i = input_value.split(" ");
+  let input_value = document.getElementById("data7").value;
+  let i = input_value.split(" ");
   count++;
 
   if (count === 1) {
@@ -161,15 +161,15 @@ function pqrs() {
   }
   document.getElementById("display").innerHTML = concaty + caracter;
   console.log(caracter);
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
 }
 
 function tuv() {
-  var input_value = document.getElementById("data8").value;
-  var i = input_value.split(" ");
+  let input_value = document.getElementById("data8").value;
+  let i = input_value.split(" ");
   count++;
 
   if (count === 1) {
@@ -188,15 +188,15 @@ function tuv() {
   }
   document.getElementById("display").innerHTML = concaty + caracter;
   console.log(caracter);
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
 }
 
 function wxyz() {
-  var input_value = document.getElementById("data9").value;
-  var i = input_value.split(" ");
+  let input_value = document.getElementById("data9").value;
+  let i = input_value.split(" ");
   count++;
 
   if (count === 1) {
@@ -218,7 +218,7 @@ function wxyz() {
   }
   document.getElementById("display").innerHTML = concaty + caracter;
   console.log(caracter);
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 1000);
