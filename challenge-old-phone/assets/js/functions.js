@@ -25,7 +25,7 @@ function abc() {
   time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
-  }, 1000);
+  }, 600);
 }
 
 function def() {
@@ -51,7 +51,7 @@ function def() {
   time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
-  }, 1000);
+  }, 600);
 }
 
 function ghi() {
@@ -77,7 +77,7 @@ function ghi() {
   time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
-  }, 1000);
+  }, 600);
 }
 
 function jkl() {
@@ -103,7 +103,7 @@ function jkl() {
   time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
-  }, 1000);
+  }, 600);
 }
 
 function mno() {
@@ -129,7 +129,7 @@ function mno() {
   time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
-  }, 1000);
+  }, 600);
 }
 
 function pqrs() {
@@ -158,7 +158,7 @@ function pqrs() {
   time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
-  }, 1000);
+  }, 600);
 }
 
 function tuv() {
@@ -184,7 +184,7 @@ function tuv() {
   time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
-  }, 1000);
+  }, 600);
 }
 
 function wxyz() {
@@ -213,7 +213,7 @@ function wxyz() {
   time = setTimeout(function() {
     concaty = concaty.concat(caracter);
     count = 0;
-  }, 1000);
+  }, 600);
 }
 
 function space() {
