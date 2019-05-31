@@ -1,7 +1,6 @@
 var count = 0;
 var concaty = "";
-var caracter;
-var time;
+var caracter, time;
 
 function abc() {
   var input_value = document.getElementById("data2").value;
