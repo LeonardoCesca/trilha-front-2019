@@ -9,20 +9,17 @@ function abc() {
 
   if (count === 1) {
     caracter = i[0];
-    clearTimeout(time);
   } else if (count === 2) {
     caracter = i[1].substr(0, 1);
-    clearTimeout(time);
   } else if (count === 3) {
     caracter = i[1].substr(1, 1);
-    clearTimeout(time);
   } else if (count === 4) {
     caracter = i[1].substr(2, 2);
     count = 0;
-    clearTimeout(time);
   }
+  clearTimeout(time);
   document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 600);
@@ -35,20 +32,17 @@ function def() {
 
   if (count === 1) {
     caracter = i[0].substr(0, 1);
-    clearTimeout(time);
   } else if (count === 2) {
     caracter = i[0].substr(1, 1);
-    clearTimeout(time);
   } else if (count === 3) {
     caracter = i[0].substr(2, 2);
-    clearTimeout(time);
   } else if (count === 4) {
     caracter = i[1];
     count = 0;
-    clearTimeout(time);
   }
+  clearTimeout(time);
   document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 600);
@@ -61,20 +55,17 @@ function ghi() {
 
   if (count === 1) {
     caracter = i[0];
-    clearTimeout(time);
   } else if (count === 2) {
     caracter = i[1].substr(0, 1);
-    clearTimeout(time);
   } else if (count === 3) {
     caracter = i[1].substr(1, 1);
-    clearTimeout(time);
   } else if (count === 4) {
     caracter = i[1].substr(2, 2);
     count = 0;
-    clearTimeout(time);
   }
+  clearTimeout(time);
   document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 600);
@@ -87,20 +78,17 @@ function jkl() {
 
   if (count === 1) {
     caracter = i[0];
-    clearTimeout(time);
   } else if (count === 2) {
     caracter = i[1].substr(0, 1);
-    clearTimeout(time);
   } else if (count === 3) {
     caracter = i[1].substr(1, 1);
-    clearTimeout(time);
   } else if (count === 4) {
     caracter = i[1].substr(2, 2);
     count = 0;
-    clearTimeout(time);
   }
+  clearTimeout(time);
   document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 600);
@@ -113,20 +101,17 @@ function mno() {
 
   if (count === 1) {
     caracter = i[0].substr(0, 1);
-    clearTimeout(time);
   } else if (count === 2) {
     caracter = i[0].substr(1, 1);
-    clearTimeout(time);
   } else if (count === 3) {
     caracter = i[0].substr(2, 2);
-    clearTimeout(time);
   } else if (count === 4) {
     caracter = i[1];
     count = 0;
-    clearTimeout(time);
   }
+  clearTimeout(time);
   document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 600);
@@ -139,23 +124,19 @@ function pqrs() {
 
   if (count === 1) {
     caracter = i[0];
-    clearTimeout(time);
   } else if (count === 2) {
     caracter = i[1].substr(0, 1);
-    clearTimeout(time);
   } else if (count === 3) {
     caracter = i[1].substr(1, 1);
-    clearTimeout(time);
   } else if (count === 4) {
     caracter = i[1].substr(2, 1);
-    clearTimeout(time);
   } else if (count === 5) {
     caracter = i[1].substr(3, 3);
     count = 0;
-    clearTimeout(time);
   }
+  clearTimeout(time);
   document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 600);
@@ -168,20 +149,17 @@ function tuv() {
 
   if (count === 1) {
     caracter = i[0];
-    clearTimeout(time);
   } else if (count === 2) {
     caracter = i[1].substr(0, 1);
-    clearTimeout(time);
   } else if (count === 3) {
     caracter = i[1].substr(1, 1);
-    clearTimeout(time);
   } else if (count === 4) {
     caracter = i[1].substr(2, 2);
     count = 0;
-    clearTimeout(time);
   }
+  clearTimeout(time);
   document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 600);
@@ -194,30 +172,26 @@ function wxyz() {
 
   if (count === 1) {
     caracter = i[0].substr(0, 1);
-    clearTimeout(time);
   } else if (count === 2) {
     caracter = i[0].substr(1, 1);
-    clearTimeout(time);
   } else if (count === 3) {
     caracter = i[0].substr(2, 1);
-    clearTimeout(time);
   } else if (count === 4) {
     caracter = i[0].substr(3, 3);
-    clearTimeout(time);
   } else if (count === 5) {
     caracter = i[1];
     count = 0;
-    clearTimeout(time);
   }
+  clearTimeout(time);
   document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(caracter);
     count = 0;
   }, 600);
 }
 
 function space() {
-  time = setTimeout(function() {
+  time = setTimeout(function () {
     concaty = concaty.concat(" ");
     count = 0;
   }, 500);
