@@ -1,223 +1,28 @@
 let count = 0;
-let concaty = "";
-let caracter, time;
+let concatt = "";
+let time;
+let pressKey;
+let character = "";
+let getValue;
 
-function abc() {
-  let input_value = document.getElementById("data2").value;
-  let i = input_value.split(" ");
-  count++;
-
-  if (count === 1) {
-    caracter = i[0];
-  } else if (count === 2) {
-    caracter = i[1].substr(0, 1);
-  } else if (count === 3) {
-    caracter = i[1].substr(1, 1);
-  } else if (count === 4) {
-    caracter = i[1].substr(2, 2);
+function receive() {
+  if (pressKey != event.target.value) {
+    pressKey = event.target.value;
+    count = 0;
+    concatt = concatt.concat(character);
+  }
+  getValue = event.target.value;
+  getValue = getValue.replace(" ", "");
+  if (count >= getValue.length) {
     count = 0;
   }
   clearTimeout(time);
-  document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function () {
-    concaty = concaty.concat(caracter);
+  character = getValue[count];
+  time = setTimeout(function() {
+    concatt = concatt.concat(character);
     count = 0;
-  }, 600);
-}
-
-function def() {
-  let input_value = document.getElementById("data3").value;
-  let i = input_value.split(" ");
+    character = "";
+  }, 2000);
+  document.getElementById("display").innerHTML = concatt + character;
   count++;
-
-  if (count === 1) {
-    caracter = i[0].substr(0, 1);
-  } else if (count === 2) {
-    caracter = i[0].substr(1, 1);
-  } else if (count === 3) {
-    caracter = i[0].substr(2, 2);
-  } else if (count === 4) {
-    caracter = i[1];
-    count = 0;
-  }
-  clearTimeout(time);
-  document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function () {
-    concaty = concaty.concat(caracter);
-    count = 0;
-  }, 600);
-}
-
-function ghi() {
-  let input_value = document.getElementById("data4").value;
-  let i = input_value.split(" ");
-  count++;
-
-  if (count === 1) {
-    caracter = i[0];
-  } else if (count === 2) {
-    caracter = i[1].substr(0, 1);
-  } else if (count === 3) {
-    caracter = i[1].substr(1, 1);
-  } else if (count === 4) {
-    caracter = i[1].substr(2, 2);
-    count = 0;
-  }
-  clearTimeout(time);
-  document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function () {
-    concaty = concaty.concat(caracter);
-    count = 0;
-  }, 600);
-}
-
-function jkl() {
-  let input_value = document.getElementById("data5").value;
-  let i = input_value.split(" ");
-  count++;
-
-  if (count === 1) {
-    caracter = i[0];
-  } else if (count === 2) {
-    caracter = i[1].substr(0, 1);
-  } else if (count === 3) {
-    caracter = i[1].substr(1, 1);
-  } else if (count === 4) {
-    caracter = i[1].substr(2, 2);
-    count = 0;
-  }
-  clearTimeout(time);
-  document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function () {
-    concaty = concaty.concat(caracter);
-    count = 0;
-  }, 600);
-}
-
-function mno() {
-  let input_value = document.getElementById("data6").value;
-  let i = input_value.split(" ");
-  count++;
-
-  if (count === 1) {
-    caracter = i[0].substr(0, 1);
-  } else if (count === 2) {
-    caracter = i[0].substr(1, 1);
-  } else if (count === 3) {
-    caracter = i[0].substr(2, 2);
-  } else if (count === 4) {
-    caracter = i[1];
-    count = 0;
-  }
-  clearTimeout(time);
-  document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function () {
-    concaty = concaty.concat(caracter);
-    count = 0;
-  }, 600);
-}
-
-function pqrs() {
-  let input_value = document.getElementById("data7").value;
-  let i = input_value.split(" ");
-  count++;
-
-  if (count === 1) {
-    caracter = i[0];
-  } else if (count === 2) {
-    caracter = i[1].substr(0, 1);
-  } else if (count === 3) {
-    caracter = i[1].substr(1, 1);
-  } else if (count === 4) {
-    caracter = i[1].substr(2, 1);
-  } else if (count === 5) {
-    caracter = i[1].substr(3, 3);
-    count = 0;
-  }
-  clearTimeout(time);
-  document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function () {
-    concaty = concaty.concat(caracter);
-    count = 0;
-  }, 600);
-}
-
-function tuv() {
-  let input_value = document.getElementById("data8").value;
-  let i = input_value.split(" ");
-  count++;
-
-  if (count === 1) {
-    caracter = i[0];
-  } else if (count === 2) {
-    caracter = i[1].substr(0, 1);
-  } else if (count === 3) {
-    caracter = i[1].substr(1, 1);
-  } else if (count === 4) {
-    caracter = i[1].substr(2, 2);
-    count = 0;
-  }
-  clearTimeout(time);
-  document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function () {
-    concaty = concaty.concat(caracter);
-    count = 0;
-  }, 600);
-}
-
-function wxyz() {
-  let input_value = document.getElementById("data9").value;
-  let i = input_value.split(" ");
-  count++;
-
-  if (count === 1) {
-    caracter = i[0].substr(0, 1);
-  } else if (count === 2) {
-    caracter = i[0].substr(1, 1);
-  } else if (count === 3) {
-    caracter = i[0].substr(2, 1);
-  } else if (count === 4) {
-    caracter = i[0].substr(3, 3);
-  } else if (count === 5) {
-    caracter = i[1];
-    count = 0;
-  }
-  clearTimeout(time);
-  document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function () {
-    concaty = concaty.concat(caracter);
-    count = 0;
-  }, 600);
-}
-
-function zero() {
-  let input_value = document.getElementById("data10").value;
-  let i = input_value.split(" ");
-  count++;
-
-  if (count) {
-    caracter = i[0].substr(0, 1);
-  }
-  clearTimeout(time);
-  document.getElementById("display").innerHTML = concaty + caracter;
-  time = setTimeout(function () {
-    concaty = concaty.concat(caracter);
-    count = 0;
-  }, 100);
-}
-
-function space() {
-  time = setTimeout(function () {
-    concaty = concaty.concat(" ");
-    count = 0;
-  }, 500);
-}
-
-function clear() {
-  let aa = document.getElementById("data2").value;
-  console.log(aa);
-  let texto = document.getElementById('display').textContent;
-  console.log(texto)
-  texto = texto.substring(0, texto.length - 1);
-  document.getElementById('display').innerHTML = texto;
 }
