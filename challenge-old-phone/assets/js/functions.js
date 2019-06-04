@@ -190,9 +190,34 @@ function wxyz() {
   }, 600);
 }
 
+function zero() {
+  let input_value = document.getElementById("data10").value;
+  let i = input_value.split(" ");
+  count++;
+
+  if (count) {
+    caracter = i[0].substr(0, 1);
+  }
+  clearTimeout(time);
+  document.getElementById("display").innerHTML = concaty + caracter;
+  time = setTimeout(function () {
+    concaty = concaty.concat(caracter);
+    count = 0;
+  }, 100);
+}
+
 function space() {
   time = setTimeout(function () {
     concaty = concaty.concat(" ");
     count = 0;
   }, 500);
+}
+
+function clear() {
+  let aa = document.getElementById("data2").value;
+  console.log(aa);
+  let texto = document.getElementById('display').textContent;
+  console.log(texto)
+  texto = texto.substring(0, texto.length - 1);
+  document.getElementById('display').innerHTML = texto;
 }
