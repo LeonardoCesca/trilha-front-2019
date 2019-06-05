@@ -22,7 +22,18 @@ function receive() {
     concatt = concatt.concat(character);
     count = 0;
     character = "";
-  }, 2000);
+  }, 1000);
   document.getElementById("display").innerHTML = concatt + character;
   count++;
+}
+
+function zero() {
+  getValue = event.target.value;
+  if (getValue === "0") {
+    clearTimeout(time);
+    time = setTimeout(function() {
+      concatt = concatt.concat(getValue);
+    }, 100);
+    document.getElementById("display").innerHTML = concatt + getValue;
+  }
 }
