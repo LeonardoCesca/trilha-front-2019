@@ -28,17 +28,20 @@ function receive() {
 }
 
 function zero() {
+  concatt = concatt.concat(character);
   getValue = event.target.value;
-  if (getValue === "0") {
-    clearTimeout(time);
-    time = setTimeout(function() {
-      concatt = concatt.concat(getValue);
-    }, 100);
-    document.getElementById("display").innerHTML = concatt + getValue;
-  }
+  concatt = concatt.concat(getValue);
+  character = "";
+  document.getElementById("display").innerHTML = concatt;
+  count = 0;
 }
 
 function space() {
   character = " ";
   document.getElementById("display").innerHTML = concatt + character;
+}
+
+function clearString() {
+  concatt = concatt.substring(0, concatt.length - 1);
+  document.getElementById("display").innerHTML = concatt;
 }
