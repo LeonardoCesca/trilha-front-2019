@@ -37,3 +37,8 @@ function zero() {
     document.getElementById("display").innerHTML = concatt + getValue;
   }
 }
+
+function space() {
+  character = " ";
+  document.getElementById("display").innerHTML = concatt + character;
+}
