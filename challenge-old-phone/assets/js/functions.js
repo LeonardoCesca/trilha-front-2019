@@ -37,8 +37,10 @@ function zero() {
 }
 
 function space() {
+  concatt = concatt.concat(character);
   character = " ";
-  document.getElementById("display").innerHTML = concatt + character;
+  document.getElementById("display").innerHTML = concatt;
+  count = 0;
 }
 
 function clearString() {
