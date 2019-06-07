@@ -285,21 +285,23 @@ function getSentEmails() {
 
 function defineDateString(date) {
   let dateNow = new Date(),
-      dateParsed = date.getTime();
+    dateParsed = date.getTime();
 
   const DIFF_TIME = Math.abs(dateNow - dateParsed),
-        DIFF_DAYS = DIFF_TIME / (1000 * 60 * 60 * 24);
+    DIFF_DAYS = DIFF_TIME / (1000 * 60 * 60 * 24);
 
-  if ( DIFF_DAYS < 1 ) {
-    if ( date.getMinutes() < 10 ) {
+  if (DIFF_DAYS < 1) {
+    if (date.getMinutes() < 10) {
       return `${date.getHours()}:0${date.getMinutes()}
               ${date.getHours()}:${date.getMinutes()}`;
     }
   }
 
-  if (dateNow.getFullYear() == date.getFullYear())
-    return `${date.getDate()} de ${months[date.getMonth()]}
-            ${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
+  if (dateNow.getFullYear() == date.getFullYear()) {
+    return `${date.getDate()} de ${months[date.getMonth()]}`;
+  }
+
+  return `${date.getDate()}/${date.getMonth() + 1}/${date.getFullYear()}`;
 }
 
 getNewEmail();
