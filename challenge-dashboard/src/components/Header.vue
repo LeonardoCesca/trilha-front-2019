@@ -2,7 +2,7 @@
   <header class="c-header">
     <img class="c-header__img" src="../assets/img/hamburguer.png" alt="hamburger" title="hamburger">
     <div class="c-container">
-      <img src="../assets/img/profile.png" alt class="c-container__img">
+      <img class="c-container__img" src="../assets/img/profile.png" alt="profile image" title="profile">
       <h2 class="c-container__nickname">Leonardo Cesca</h2>
     </div>
   </header>
@@ -40,7 +40,7 @@ export default {};
     height: 40px;
     border-radius: 50%;
   }
-  
+
   &__nickname {
     margin: 0;
     padding: 0;

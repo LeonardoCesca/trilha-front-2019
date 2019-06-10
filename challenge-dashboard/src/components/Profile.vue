@@ -1,7 +1,7 @@
 <template>
  <section class="c-profile">
-     <img src="../assets/img/profile.png" alt="">
-     <h3 class="c-profile__name"></h3>
+     <img class="c-profile__img" src="../assets/img/profile.png" alt="profile image" title="image profile">
+     <h3 class="c-profile__name">Leonardo Cesca</h3>
      <span class="c-profile__status"></span>
  </section>
 </template>
@@ -10,5 +10,5 @@
 export default {};
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 </style>
