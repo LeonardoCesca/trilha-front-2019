@@ -1,5 +1,5 @@
 <template>
-  <section class="c-itens">
+  <nav class="c-itens">
     <div class="c-itens__content">
       <h4 class="c-itens__title">Header</h4>
     </div>
@@ -65,7 +65,7 @@
         </li>
       </a>
     </ul>
-  </section>
+  </nav>
 </template>
 
 <script>
