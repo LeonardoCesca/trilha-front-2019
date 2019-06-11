@@ -2,7 +2,12 @@
   <header class="c-header">
     <img class="c-header__img" src="../assets/img/hamburguer.png" alt="hamburger" title="hamburger">
     <div class="c-container">
-      <img class="c-container__img" src="../assets/img/profile.png" alt="profile image" title="profile">
+      <img
+        class="c-container__img"
+        src="../assets/img/profile.png"
+        alt="profile image"
+        title="profile"
+      >
       <h2 class="c-container__nickname">Leonardo Cesca</h2>
     </div>
   </header>
@@ -18,7 +23,7 @@ export default {};
   justify-content: space-between;
   align-items: center;
   float: right;
-  width: 80%;
+  width: 80vw;
   height: 60px;
   background-color: #3c8dbd;
 

@@ -10,10 +10,9 @@
 </template>
 
 <script>
-
-import Profile from './Profile.vue'
-import Search from './Search-Nav.vue'
-import Itens from './Itens-Nav.vue'
+import Profile from "./Profile.vue";
+import Search from "./Search-Nav.vue";
+import Itens from "./Itens-Nav.vue";
 
 export default {
   components: {
@@ -38,7 +37,7 @@ export default {
   align-items: center;
   background: #357eab;
   height: 59.9px;
-  
+
   &__title {
     margin: 0 auto;
     padding: 0;
