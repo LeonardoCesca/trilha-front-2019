@@ -5,18 +5,21 @@
     </header>
     <Profile></Profile>
     <Search></Search>
+    <Itens></Itens>
   </aside>
 </template>
 
 <script>
 
 import Profile from './Profile.vue'
-import Search from './Search.vue'
+import Search from './Search-Nav.vue'
+import Itens from './Itens-Nav.vue'
 
 export default {
   components: {
     Profile,
-    Search
+    Search,
+    Itens
   }
 };
 </script>
