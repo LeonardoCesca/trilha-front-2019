@@ -3,12 +3,19 @@
     <header class="c-header-table">
       <h3 class="c-header-table__title">Data Tables</h3>
       <span class="c-header-table__subtitle">advanced tables</span>
+      <Navigation></Navigation>
     </header>
   </main>
 </template>
 
 <script>
-export default {};
+import Navigation from "./Navigation.vue";
+
+export default {
+  components: {
+    Navigation
+  }
+};
 </script>
 
 <style lang="scss" scoped>
@@ -35,5 +42,9 @@ export default {};
     padding-left: 10px;
     color: #bec3c7;
   }
+}
+
+.c-div-table {
+  display: flex;
 }
 </style>
