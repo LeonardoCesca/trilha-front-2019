@@ -48,7 +48,6 @@ export default {};
       height: 10px;
       width: 10px;
       background-color: green;
-
       margin: 0 5px;
     }
   }

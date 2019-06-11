@@ -4,16 +4,19 @@
       <h1 class="header-aside__title">Admin Panel</h1>
     </header>
     <Profile></Profile>
+    <Search></Search>
   </aside>
 </template>
 
 <script>
 
 import Profile from './Profile.vue'
+import Search from './Search.vue'
 
 export default {
   components: {
-    Profile
+    Profile,
+    Search
   }
 };
 </script>
