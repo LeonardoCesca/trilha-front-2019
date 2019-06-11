@@ -3,11 +3,19 @@
     <header class="header-aside">
       <h1 class="header-aside__title">Admin Panel</h1>
     </header>
+    <Profile></Profile>
   </aside>
 </template>
 
 <script>
-export default {};
+
+import Profile from './Profile.vue'
+
+export default {
+  components: {
+    Profile
+  }
+};
 </script>
 
 <style lang="scss" scoped>
