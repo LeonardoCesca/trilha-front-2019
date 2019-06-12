@@ -23,6 +23,8 @@ export default {
 
 <style lang="scss" scoped>
 .c-main-table {
+  display: flex;
+  flex-direction: column;
   flex: 1;
   background-color: #eef0f3;
 }
