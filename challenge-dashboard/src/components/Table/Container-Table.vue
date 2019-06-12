@@ -5,7 +5,7 @@
       <span class="c-header-table__subtitle">advanced tables</span>
       <Navigation></Navigation>
     </header>
-      <Table></Table>
+    <Table></Table>
   </main>
 </template>
 
