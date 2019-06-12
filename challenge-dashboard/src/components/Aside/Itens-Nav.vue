@@ -118,6 +118,11 @@ export default {};
     width: 20vw;
     height: 4vh;
     margin-bottom: 2px;
+
+    &:hover {
+      background-color: #1b2627;
+      border-left: 2px solid #3b82ab;
+    }
   }
 
   &__link {
