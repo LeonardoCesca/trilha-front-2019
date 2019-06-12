@@ -98,7 +98,7 @@ export default {
   display: flex;
   flex-direction: column;
   flex: 1;
-  background: #fff;
+  background: #fcfcfc;
   margin-bottom: 30px;
   width: 98%;
   margin: 0 auto 40px;
