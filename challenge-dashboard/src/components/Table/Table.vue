@@ -13,9 +13,9 @@
           <th>Action</th>
         </tr>
         <tr class="c-table__info" v-for="user in users">
-          <td></td>
+          <td>{{user.id}}</td>
           <td>{{user.first_name}}</td>
-          <td>aaa</td>
+          <td>{{user.email}}</td>
           <td>teste</td>
           <td>teste</td>
           <td>teste</td>
