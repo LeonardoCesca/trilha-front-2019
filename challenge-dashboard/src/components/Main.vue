@@ -1,20 +1,20 @@
 <template>
   <div class="c-main-container">
     <Header></Header>
-    <Table></Table>
+    <ContainerTable></ContainerTable>
     <Footer></Footer>
   </div>
 </template>
 
 <script>
 import Header from "./Header.vue";
-import Table from "./Table.vue";
+import ContainerTable from "./Container-Table.vue";
 import Footer from "./Footer.vue";
 
 export default {
   components: {
     Header,
-    Table,
+    ContainerTable,
     Footer
   }
 };

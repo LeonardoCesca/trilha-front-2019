@@ -1,50 +1,42 @@
 <template>
-  <main class="c-main-table">
-    <header class="c-header-table">
-      <h3 class="c-header-table__title">Data Tables</h3>
-      <span class="c-header-table__subtitle">advanced tables</span>
-      <Navigation></Navigation>
-    </header>
+  <main class="c-princ-table">
+      <h3 class="c-princ-table__info">Data Table With Full Features</h3>
+    <div class="c-princ-table__utils">
+      <span class="c-show-registers"> Show
+        <input type="text" class="c-show-registers__input">
+        entries
+      </span>
+    </div>
   </main>
 </template>
 
 <script>
-import Navigation from "./Navigation.vue";
-
-export default {
-  components: {
-    Navigation
-  }
-};
+export default {};
 </script>
 
 <style lang="scss" scoped>
-.c-main-table {
-  flex: 1;
-  background-color: #eef0f3;
-}
+.c-princ-table {
+  background-color: #fcfcfc;
+  margin: 20px;
+  border-top: 2px solid #aaaaaa;
 
-.c-header-table {
-  display: flex;
-  align-items: center;
-  margin-left: 20px;
-  margin-top: 20px;
-
-  &__title {
-    font-size: 24px;
-    font-weight: normal;
-    margin: 0;
+  &__info {
+    padding-left: 15px;
   }
 
-  &__subtitle {
-    font-size: 17px;
-    font-weight: normal;
-    padding-left: 10px;
-    color: #bec3c7;
+  &__utils {
+    display: flex;
+    justify-content: space-between;
   }
 }
 
-.c-div-table {
-  display: flex;
+.c-show-registers {
+  padding-left: 15px;
+
+  &__input {
+    width: 25%;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
 }
 </style>
