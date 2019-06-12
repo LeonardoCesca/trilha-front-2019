@@ -12,63 +12,9 @@
           <th>Specialist</th>
           <th>Action</th>
         </tr>
-        <tr class="c-table__info">
-          <td>1</td>
-          <td>Teste</td>
-          <td>aaa</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-        </tr>
-        <tr class="c-table__info">
-          <td>1</td>
-          <td>Teste</td>
-          <td>aaa</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-        </tr>
-        <tr class="c-table__info">
-          <td>1</td>
-          <td>Teste</td>
-          <td>aaa</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-        </tr>
-        <tr class="c-table__info">
-          <td>1</td>
-          <td>Teste</td>
-          <td>aaa</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-        </tr>
-        <tr class="c-table__info">
-          <td>1</td>
-          <td>Teste</td>
-          <td>aaa</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-        </tr>
-        <tr class="c-table__info">
-          <td>1</td>
-          <td>Teste</td>
-          <td>aaa</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-          <td>teste</td>
-        </tr>
-        <tr class="c-table__info">
-          <td>1</td>
-          <td>Teste</td>
+        <tr class="c-table__info" v-for="user in users">
+          <td></td>
+          <td>{{user.first_name}}</td>
           <td>aaa</td>
           <td>teste</td>
           <td>teste</td>
@@ -85,7 +31,18 @@
 import HeaderTable from "./Header-Table.vue";
 import FooterTable from "./Footer-Table.vue";
 
+import getUsers from "../../api/config";
+
 export default {
+  mounted: function() {
+    getUsers().then(users => {
+      this.users = users.data.data;
+    });
+  },
+
+  data() {
+    return { users: [] };
+  },
   components: {
     HeaderTable,
     FooterTable
