@@ -92,6 +92,10 @@ export default {};
     padding: 0;
     margin: 10px 0;
     background-color: #1a2527;
+
+    @media (max-width: 1366px) {
+      height: 7vh;
+    }
   }
 
   &__list {
