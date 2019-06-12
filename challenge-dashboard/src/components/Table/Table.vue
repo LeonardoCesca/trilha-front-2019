@@ -12,7 +12,7 @@
           <th>Specialist</th>
           <th>Action</th>
         </tr>
-        <tr>
+        <tr class="c-table__info">
           <td>1</td>
           <td>Teste</td>
           <td>aaa</td>
@@ -21,7 +21,7 @@
           <td>teste</td>
           <td>teste</td>
         </tr>
-        <tr>
+        <tr class="c-table__info">
           <td>1</td>
           <td>Teste</td>
           <td>aaa</td>
@@ -30,7 +30,7 @@
           <td>teste</td>
           <td>teste</td>
         </tr>
-        <tr>
+        <tr class="c-table__info">
           <td>1</td>
           <td>Teste</td>
           <td>aaa</td>
@@ -39,7 +39,7 @@
           <td>teste</td>
           <td>teste</td>
         </tr>
-        <tr>
+        <tr class="c-table__info">
           <td>1</td>
           <td>Teste</td>
           <td>aaa</td>
@@ -48,7 +48,7 @@
           <td>teste</td>
           <td>teste</td>
         </tr>
-        <tr>
+        <tr class="c-table__info">
           <td>1</td>
           <td>Teste</td>
           <td>aaa</td>
@@ -57,7 +57,7 @@
           <td>teste</td>
           <td>teste</td>
         </tr>
-        <tr>
+        <tr class="c-table__info">
           <td>1</td>
           <td>Teste</td>
           <td>aaa</td>
@@ -66,7 +66,7 @@
           <td>teste</td>
           <td>teste</td>
         </tr>
-        <tr>
+        <tr class="c-table__info">
           <td>1</td>
           <td>Teste</td>
           <td>aaa</td>
@@ -111,11 +111,15 @@ export default {
 .c-table {
   margin-top: 20px;
   width: 100%;
-  max-height: 43vh;
+  height: 53vh;
   text-align: center;
 
   &__info {
-    padding-bottom: 15px;
+    height: 45px;
+
+    &:nth-child(even) {
+      background-color: #f3f3f6;
+    }
   }
 }
 </style>

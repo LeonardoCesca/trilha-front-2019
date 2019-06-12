@@ -21,6 +21,7 @@ export default {};
     text-decoration: none;
     background: transparent;
     border: 1px solid #e5e8eb;
+    color: #c6cbcd;
     padding: 10px 0;
     width: 80px;
     cursor: pointer;
