@@ -1,8 +1,8 @@
 <template>
- <section class="c-search">
-     <input type="text" class="c-search__input" placeholder="Search...">
-     <img class="c-search__img" src="../assets/img/ico-finder.png" alt="">
- </section>
+  <section class="c-search">
+    <input type="text" class="c-search__input" placeholder="Search...">
+    <img class="c-search__img" src="../../assets/img/ico-finder.png" alt>
+  </section>
 </template>
 
 <script>

@@ -1,11 +1,16 @@
 <template>
- <section class="c-profile">
-     <img class="c-profile__img" src="../assets/img/profile.png" alt="profile image" title="image profile">
-     <div class="c-profile__content">
-        <h3 class="c-profile__name">Leonardo Cesca</h3>
-        <span class="c-profile__status">Online</span>
-     </div>
- </section>
+  <section class="c-profile">
+    <img
+      class="c-profile__img"
+      src="../../assets/img/profile.png"
+      alt="profile image"
+      title="image profile"
+    >
+    <div class="c-profile__content">
+      <h3 class="c-profile__name">Leonardo Cesca</h3>
+      <span class="c-profile__status">Online</span>
+    </div>
+  </section>
 </template>
 
 <script>
@@ -38,7 +43,7 @@ export default {};
 
   &__status {
     font-size: 12px;
-    float:left;
+    float: left;
     margin-top: 5px;
 
     &:before {

@@ -1,10 +1,15 @@
 <template>
   <header class="c-header">
-    <img class="c-header__img" src="../assets/img/hamburguer.png" alt="hamburger" title="hamburger">
+    <img
+      class="c-header__img"
+      src="../../assets/img/hamburguer.png"
+      alt="hamburger"
+      title="hamburger"
+    >
     <div class="c-container">
       <img
         class="c-container__img"
-        src="../assets/img/profile.png"
+        src="../../assets/img/profile.png"
         alt="profile image"
         title="profile"
       >

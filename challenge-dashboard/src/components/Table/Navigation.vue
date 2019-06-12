@@ -1,11 +1,13 @@
 <template>
   <nav class="c-navigation">
     <ul class="c-navigation__list">
-      <li class="c-navigation__item">Home
-      <img class="c-navigation__img" src="../assets/img/right-arrow.png" alt="Arrow">
+      <li class="c-navigation__item">
+        Home
+        <img class="c-navigation__img" src="../../assets/img/right-arrow.png" alt="Arrow">
       </li>
-      <li class="c-navigation__item">Tables
-      <img class="c-navigation__img" src="../assets/img/right-arrow.png" alt="Arrow">
+      <li class="c-navigation__item">
+        Tables
+        <img class="c-navigation__img" src="../../assets/img/right-arrow.png" alt="Arrow">
       </li>
       <li class="c-navigation__item">Data tables</li>
     </ul>

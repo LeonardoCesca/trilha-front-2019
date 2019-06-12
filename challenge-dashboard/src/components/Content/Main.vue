@@ -8,7 +8,7 @@
 
 <script>
 import Header from "./Header.vue";
-import ContainerTable from "./Container-Table.vue";
+import ContainerTable from "../Table/Container-Table";
 import Footer from "./Footer.vue";
 
 export default {
