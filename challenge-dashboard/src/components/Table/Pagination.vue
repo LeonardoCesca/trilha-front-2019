@@ -20,14 +20,16 @@ export default {};
   &-button {
     text-decoration: none;
     background: transparent;
-    border: 1px solid gray;
+    border: 1px solid #e5e8eb;
     padding: 10px 0;
     width: 80px;
+    cursor: pointer;
 
     &:nth-child(2n) {
-      border-left: 1px solid gray;
-      border-right: 1px solid gray;
-      width: 25px;
+      background-color: #3580ad;
+      color: #fff;
+      border: 1px solid #e5e8eb;
+      width: 40px;
     }
   }
 }
