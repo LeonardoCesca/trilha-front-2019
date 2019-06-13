@@ -12,7 +12,7 @@
           <th>Specialist</th>
           <th>Action</th>
         </tr>
-        <tr class="c-table__info" v-for="user in users">
+        <tr class="c-table__info" v-for="user in users" :key="user.id">
           <td>{{user.id}}</td>
           <td>{{user.first_name}}</td>
           <td>{{user.email}}</td>
