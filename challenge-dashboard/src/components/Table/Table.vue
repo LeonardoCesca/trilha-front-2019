@@ -60,6 +60,10 @@ export default {
   width: 98%;
   margin: 0 auto 40px;
   border-top: 2px solid gray;
+
+  @media (min-width: 1366px) {
+      margin: 0 auto 20px;
+  }
 }
 
 .c-table-div {
@@ -72,11 +76,19 @@ export default {
   height: 53vh;
   text-align: center;
 
+  @media (max-width: 1366px) {
+    height: 37vh;
+  }
+
   &__info {
     height: 45px;
 
     &:nth-child(even) {
       background-color: #f3f3f6;
+    }
+
+    @media (max-width: 1366px) {
+      height: 0;
     }
   }
 }

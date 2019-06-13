@@ -26,6 +26,10 @@ export default {
     align-items: center;
     height: 65px;
     margin: 15px;
+
+    @media (max-width: 1366px) {
+      height: 30px;
+    }
   }
 }
 </style>
