@@ -4,7 +4,7 @@
       <h4 class="c-itens__title">Header</h4>
     </div>
     <ul class="c-itens__list">
-      <a href="#" class="c-itens__link">
+      <router-link to="/teste" class="c-itens__link">
         <li class="c-itens__item">
           <svg
             class="c-itens__img"
@@ -18,7 +18,7 @@
           </svg>
           <span class="c-itens__name">Home</span>
         </li>
-      </a>
+      </router-link>
       <a href="#" class="c-itens__link">
         <li class="c-itens__item">
           <svg

@@ -9,7 +9,7 @@
 
 <script>
 import Header from "./Header.vue";
-import ContainerTable from "../Table/Doctors/Container-Table.vue";
+import ContainerTable from "../Table/Container-Table.vue";
 import Footer from "./Footer.vue";
 
 export default {
