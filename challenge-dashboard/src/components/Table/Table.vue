@@ -59,6 +59,7 @@ export default {
   margin-bottom: 30px;
   width: 98%;
   margin: 0 auto 40px;
+  border-top: 2px solid gray;
 }
 
 .c-table-div {

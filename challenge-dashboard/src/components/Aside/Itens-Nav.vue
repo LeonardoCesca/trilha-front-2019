@@ -4,7 +4,7 @@
       <h4 class="c-itens__title">Header</h4>
     </div>
     <ul class="c-itens__list">
-      <a href class="c-itens__link">
+      <a href="#" class="c-itens__link">
         <li class="c-itens__item">
           <svg
             class="c-itens__img"
@@ -19,7 +19,7 @@
           <span class="c-itens__name">Home</span>
         </li>
       </a>
-      <a href class="c-itens__link">
+      <a href="#" class="c-itens__link">
         <li class="c-itens__item">
           <svg
             class="c-itens__img"
@@ -34,7 +34,7 @@
           <span class="c-itens__name">Doctors</span>
         </li>
       </a>
-      <a href class="c-itens__link">
+      <a href="#" class="c-itens__link">
         <li class="c-itens__item">
           <svg
             class="c-itens__img"
@@ -49,7 +49,7 @@
           <span class="c-itens__name">Nurses</span>
         </li>
       </a>
-      <a href class="c-itens__link">
+      <a href="#" class="c-itens__link">
         <li class="c-itens__item">
           <svg
             class="c-itens__img"
