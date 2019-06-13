@@ -1,20 +1,22 @@
-import Vue from 'vue'
-import VueRouter from 'vue-router'
+// import Vue from 'vue'
+// import VueRouter from 'vue-router'
 
-Vue.use(VueRouter);
-const Home = {
-    template: '<router-view></router-view>'
-}
+// import Home from '../components/Content/Main.vue'
 
-function mainRouter() {
-    const router = new VueRouter({
-        routes: [{
-            path: '/',
-            component: Home
-        }]
-    });
+// Vue.use(VueRouter);
+// // const Home = {
+// //     template: '<router-view></router-view>'
+// // }
 
-    return router;
-}
+// function mainRouter() {
+//     const router = new VueRouter({
+//         routes: [{
+//             path: '/',
+//             component: Home
+//         }]
+//     });
 
-export default mainRouter;
+//     return router;
+// }
+
+// export default mainRouter;
