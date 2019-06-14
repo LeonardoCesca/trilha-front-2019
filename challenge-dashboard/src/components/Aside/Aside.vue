@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import Profile from "./Profile.vue";
-import Search from "./Search-Nav.vue";
-import Itens from "./Itens-Nav.vue";
+import Profile from "./AsideProfile.vue";
+import Search from "./AsideSearchNav.vue";
+import Itens from "./AsideItensNav.vue";
 
 export default {
   components: {

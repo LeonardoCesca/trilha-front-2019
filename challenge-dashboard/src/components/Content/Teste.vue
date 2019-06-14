@@ -8,9 +8,9 @@
 </template>
 
 <script>
-import Header from "./Header.vue";
-import ContainerTable from "../Table/Container-Table.vue";
-import Footer from "./Footer.vue";
+import Header from "./ContentHeader.vue";
+import ContainerTable from "../Table/ContainerTable.vue";
+import Footer from "./ContentFooter.vue";
 
 export default {
   components: {

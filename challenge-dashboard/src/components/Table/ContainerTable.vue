@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import Navigation from "./Navigation.vue";
+import Navigation from "./TableNavigation.vue";
 import Table from "./Table.vue";
 
 export default {

@@ -2,7 +2,7 @@ import Vue from 'vue'
 import App from './App.vue'
 import VueRouter from 'vue-router'
 
-import Main from './components/Content/Main.vue'
+import Main from './components/Content/ContentMain.vue'
 import Teste from './components/Content/Teste.vue'
 
 require('normalize.css');

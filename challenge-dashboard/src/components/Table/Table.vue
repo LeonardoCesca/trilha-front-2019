@@ -28,8 +28,8 @@
 </template>
 
 <script>
-import HeaderTable from "./Header-Table.vue";
-import FooterTable from "./Footer-Table.vue";
+import HeaderTable from "./TableHeader.vue";
+import FooterTable from "./TableFooter.vue";
 
 import getUsers from "../../api/config";
 
