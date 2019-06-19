@@ -12,10 +12,10 @@
           <th>Specialist</th>
           <th>Action</th>
         </tr>
-        <tr class="c-table__info" v-for="user in users" :key="user.id">
-          <td>{{user.id}}</td>
-          <td>{{user.first_name}}</td>
-          <td>{{user.email}}</td>
+        <tr class="c-table__info" v-for="dado in dados" :key="dado.id">
+          <td>{{dado.id}}</td>
+          <td>{{dado.first_name}}</td>
+          <td>{{dado.email}}</td>
           <td>teste</td>
           <td>teste</td>
           <td>teste</td>
@@ -31,18 +31,25 @@
 import HeaderTable from "./TableHeader.vue";
 import FooterTable from "./TableFooter.vue";
 
-import getUsers from "../../api/config";
+import UserService from "@/service/UserService";
 
 export default {
-  mounted: function() {
-    getUsers().then(users => {
-      this.users = users.data.data;
-    });
+  data() {
+    return { dados: [] };
   },
 
-  data() {
-    return { users: [] };
+  created() {
+    this.getData();
   },
+
+  methods: {
+    getData() {
+      UserService.getDataApi("/users?per_page=8").then(
+        data => (this.dados = data)
+      );
+    }
+  },
+
   components: {
     HeaderTable,
     FooterTable
@@ -62,7 +69,7 @@ export default {
   border-top: 2px solid gray;
 
   @media (min-width: 1366px) {
-      margin: 0 auto 20px;
+    margin: 0 auto 20px;
   }
 }
 
