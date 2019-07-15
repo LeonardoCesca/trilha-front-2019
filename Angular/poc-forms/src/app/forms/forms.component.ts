@@ -13,4 +13,8 @@ export class FormsComponent implements OnInit {
   ngOnInit() {
   }
 
+  updateName() {
+    this.name.setValue('Leo');
+  }
+
 }

@@ -1,0 +1,18 @@
+.forms {
+    color: #607d8b;
+
+    &__title {
+        text-transform: uppercase;
+    }
+
+    &__label {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+    }
+
+    &__input {
+        margin-bottom: 10px;
+    }
+
+}

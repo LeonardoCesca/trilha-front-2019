@@ -1,5 +1,8 @@
-<p>forms works!</p>
-<label>
+<section class="forms">
+  <p class="forms__title">forms works!</p>
+  <label class="forms__label">
     Name:
-    <input type="text" [formControl]="name"> {{ name.value }}
+    <input type="text" [formControl]="name" class="forms__input"> {{ name.value }}
+    <button (click)="updateName()" class="forms__btn">Update</button>
   </label>
+</section>
