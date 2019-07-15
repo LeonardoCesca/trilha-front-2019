@@ -1,5 +1,8 @@
 .profile-form {
-    color: #607d8b;
+  display: flex;
+  flex-direction: column;
+  width: 180px;
+  color: #607d8b;
 
     &__label {
         display: flex;
@@ -16,6 +19,9 @@
         color: #fff;
         border: none;
         border-radius: 20px;
+        width: 80px;
+        margin: 0 auto;
+        margin-top: 10px;
         cursor: pointer;
     }
 
