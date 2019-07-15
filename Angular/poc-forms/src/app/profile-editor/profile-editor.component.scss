@@ -1,0 +1,22 @@
+.profile-form {
+    color: #607d8b;
+
+    &__label {
+        display: flex;
+        flex-direction: column;
+        width: 180px;
+    }
+
+    &__input {
+        margin-bottom: 10px;
+    }
+
+    &__btn {
+        background-color: blue;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+}
