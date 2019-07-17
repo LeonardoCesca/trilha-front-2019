@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormBuilder, FormGroup } from '@angular/forms';
+import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 // import { Usuario } from './usuario';
 
 @Component({
@@ -18,12 +18,19 @@ export class AppComponent {
 
   criarFormularioDeUsuario() {
     this.formularioDeUsuario = this.fb.group({
-      nome: [''],
-      email: [''],
-      cpf: [''],
-      nascimento: [''],
-      senha: [''],
-      confirmarSenha: [''],
+      nome: [
+        '',
+        Validators.compose([
+          Validators.required,
+          Validators.minLength(3),
+          Validators.maxLength(100)
+        ])
+        ],
+      email: ['', Validators.compose([Validators.email])],
+      cpf: ['', Validators.compose([Validators.required])],
+      nascimento: ['', Validators.compose([Validators.required])],
+      senha: ['', Validators.compose([Validators.required])],
+      confirmarSenha: ['', Validators.compose([Validators.required])],
     });
   }
 
