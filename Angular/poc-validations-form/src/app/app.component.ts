@@ -25,7 +25,7 @@ export class AppComponent {
           Validators.minLength(3),
           Validators.maxLength(100)
         ])
-        ],
+      ],
       email: ['', Validators.compose([Validators.email])],
       cpf: ['', Validators.compose([Validators.required])],
       nascimento: ['', Validators.compose([Validators.required])],
