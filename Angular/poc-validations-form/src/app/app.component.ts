@@ -1,16 +1,16 @@
-mport { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {
   FormBuilder,
   FormGroup,
   Validators
 } from '../../node_modules/@angular/forms';
 import { Usuario } from './usuario';
-import { Validacoes } from './valicadoes';
+import { Validacoes } from './validacoes';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
   // Aqui damos um nome para nosso formulário
