@@ -1,6 +1,8 @@
-export class Employee {
-    id: string;
-    name: string;
+export class Employees {
+    id: number;
+    firstName: string;
+    lastName: string;
     email: string;
-    phone: number;
+
+    constructor(){}
 }
