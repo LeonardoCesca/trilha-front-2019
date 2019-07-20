@@ -2,20 +2,20 @@
     "employees": [
         {
             "id": 1,
-            "first_name": "Leonardo",
-            "last_name": "Cesca",
+            "firstName": "Leonardo",
+            "lastName": "Cesca",
             "email": "leonardo@gmail.com"
         },
         {
             "id": 2,
-            "first_name": "Bruno",
-            "last_name": "Ramires",
+            "firstName": "Bruno",
+            "lastName": "Ramires",
             "email": "bruno@gmail.com"
         },
         {
             "id": 3,
-            "first_name": "Mauricio",
-            "last_name": "Pezzoa",
+            "firstName": "Mauricio",
+            "lastName": "Pezzoa",
             "email": "mauricio@gmail.com"
         }
     ]
