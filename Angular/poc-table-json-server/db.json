@@ -1,0 +1,22 @@
+{
+    "employees": [
+        {
+            "id": 1,
+            "first_name": "Leonardo",
+            "last_name": "Cesca",
+            "email": "leonardo@gmail.com"
+        },
+        {
+            "id": 2,
+            "first_name": "Bruno",
+            "last_name": "Ramires",
+            "email": "bruno@gmail.com"
+        },
+        {
+            "id": 3,
+            "first_name": "Mauricio",
+            "last_name": "Pezzoa",
+            "email": "mauricio@gmail.com"
+        }
+    ]
+}
