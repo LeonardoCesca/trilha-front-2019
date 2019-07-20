@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { EmployeesService } from './service/employees/employees.service';
 import { Employees } from 'src/employees';
 
@@ -7,7 +7,7 @@ import { Employees } from 'src/employees';
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
-export class AppComponent {
+export class AppComponent implements OnInit {
   title = 'poc-table-json-server';
 
   constructor(private es : EmployeesService) {}
@@ -18,4 +18,14 @@ export class AppComponent {
 
   employees : Employees[] = [];
 
+  ngOnInit(): void {
+    this.es.getRegisters().subscribe(
+      (response) => {
+        this.employees = response;
+      },
+      (error) => {
+        console.log ("Erro");
+      }
+    )
+  }
 }
