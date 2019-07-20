@@ -1,16 +1,13 @@
 import { Injectable } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { Observable, of } from 'rxjs';
+import { Employees } from 'src/app/core/employees.model';
 
 @Injectable({
   providedIn: 'root'
 })
 export class EmployeesService {
 
-  constructor(private http: HttpClient) { }
-
-  getRegisters(): Observable<any> {
-    const url = '/employees';
-    return this.http.get(url);
+  getRegisters(): Observable<Employees[]> {
+    return of ([]);
   }
 }
