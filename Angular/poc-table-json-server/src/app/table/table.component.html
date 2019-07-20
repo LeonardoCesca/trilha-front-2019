@@ -1,15 +1,14 @@
 <table class="table">
     <thead>
       <tr>
-        <th>Month</th>
+        <th *ngFor="let col of columns">
+          {{col}}
+        </th>
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>January</td>
-      </tr>
-      <tr>
-        <td>February</td>
+      <tr *ngFor="let employee of employees">
+        <td *ngFor="let col of index">{{user[col]}}</td>
       </tr>
     </tbody>
   </table>
