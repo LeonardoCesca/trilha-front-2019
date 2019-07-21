@@ -18,5 +18,20 @@
             "lastName": "Pezzoa",
             "email": "mauricio@gmail.com"
         }
+    ],
+
+    "Infos": [
+        {
+            "name": "Código"
+        },
+        {
+            "name": "Nome"
+        },
+        {
+            "name": "Sobrenome"
+        },
+        {
+            "name": "E-mail"
+        }
     ]
 }
