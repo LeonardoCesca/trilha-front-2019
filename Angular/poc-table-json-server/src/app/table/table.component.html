@@ -1,4 +1,10 @@
-<table class="table">
-  <tr class="table__category" *ngFor="let table of employees">{{table.id}}
-  </tr>
+<table>
+  <tbody>
+    <tr *ngFor="let employee of employees">
+      <td>{{employee.id}}</td>
+      <td>{{employee.firstName}}</td>
+      <td>{{employee.lastName}}</td>
+      <td>{{employee.email}}</td>
+    </tr>
+  </tbody>
 </table>
