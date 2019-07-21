@@ -7,11 +7,11 @@ import { Employees } from 'src/employees';
 })
 export class EmployeesService {
 
+  private API = "http://localhost:3000/employees";
+
   constructor(private http: HttpClient) { }
 
-  url: string = "http://localhost:4200/employees";
-
   getRegisters() {
-    return this.http.get<Employees[]>(this.url);
+    return this.http.get<Employees[]>(this.API);
   }
 }
