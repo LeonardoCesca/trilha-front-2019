@@ -1,14 +1,4 @@
 <table class="table">
-    <thead>
-      <tr>
-        <th *ngFor="let col of columns">
-          {{col}}
-        </th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr *ngFor="let employee of employees">
-        <td *ngFor="let col of index">{{user[col]}}</td>
-      </tr>
-    </tbody>
-  </table>
+  <tr class="table__category" *ngFor="let table of employees">{{table.id}}
+  </tr>
+</table>
