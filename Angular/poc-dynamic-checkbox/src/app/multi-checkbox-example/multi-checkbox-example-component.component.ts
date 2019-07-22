@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './multi-checkbox-example-component.component.html',
   styleUrls: ['./multi-checkbox-example-component.component.scss']
 })
-export class MultiCheckboxExampleComponentComponent implements OnInit {
+export class MultiCheckboxExampleComponent implements OnInit {
 
   constructor() { }
 
