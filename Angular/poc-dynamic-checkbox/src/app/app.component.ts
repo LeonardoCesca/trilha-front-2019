@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { FormGroup } from '@angular/forms';
+import { FormGroup, FormBuilder, FormControl, FormArray } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
@@ -15,4 +15,16 @@ export class AppComponent {
     { id: 3, genre: 'Techno' },
     { id: 4, genre: 'Hiphop' }
   ];
+
+  constructor(private fb: FormBuilder) {
+    const formControls = this.musicPreferences.map(control => new FormControl(false));
+
+    this.musicForm = this.fb.group({
+      musicPreferences: new FormArray(formControls)
+    });
+  }
+
+  submit() {
+
+  }
 }
