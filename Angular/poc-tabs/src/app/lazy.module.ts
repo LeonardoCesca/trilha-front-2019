@@ -5,7 +5,8 @@ import { LazyChildComponent } from './lazy-child/lazy-child.component';
 import { Routes, RouterModule } from '@angular/router';
 
 const routes: Routes = [
-  { path: 'load-me', component:  LazyParentComponent }
+  { path: 'load-me', component:  LazyParentComponent },
+  { path: 'load-you', component:  LazyChildComponent }
 ];
 
 @NgModule({
