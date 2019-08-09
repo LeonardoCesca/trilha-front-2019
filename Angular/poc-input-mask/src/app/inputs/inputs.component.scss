@@ -1,0 +1,15 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+
+    &__label {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+
+    &__input {
+        outline: none;
+        margin-bottom: 20px;
+    }
+}
